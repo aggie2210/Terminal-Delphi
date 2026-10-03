@@ -2,8 +2,8 @@ program Pterminal;
 
 uses
   Vcl.Forms,
-  Terminal in 'Terminal.pas' {frmTerminal},
-  terminalFrame in 'terminalFrame.pas' {FrameTerminal: TFrame};
+  Terminal in 'pages/Terminal.pas' {frmTerminal},
+  terminalFrame in 'pages/terminalFrame.pas' {FrameTerminal: TFrame};
 
 {$R *.res}
 
